@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace IdentityProject.Controllers
 {
+    [Authorize(Roles = "Manager")]
     public class CMSController : Controller
     {
         private readonly ILogger<CMSController> _logger;

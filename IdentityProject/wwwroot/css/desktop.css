@@ -2,11 +2,13 @@
     --button-color: #C9D91E;
 }
 body {
+    background-color: lightblue;
 }
-main{
-    margin:auto;
-    max-width:1200px;
-    flex-direction:row;
+main {
+    margin: auto;
+    max-width: 1200px;
+    flex-direction: row;
+
 }
 header {
     position: -webkit-sticky; /* Safari */
