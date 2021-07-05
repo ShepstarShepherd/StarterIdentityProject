@@ -4,15 +4,16 @@
 }
 
 <p>Are you sure you want to delete @Model.FilmTitle?</p>
-
-
+<div>
+<a asp-controller="CMS" asp-action="Index" class="add">Keep it</a>
+    </div>
 
 <form method="post">
     <input type="hidden" asp-for="FilmID" />
 
 
     <div>
-        <input type="submit" value="Delete" class="delete" />
+        <input type="submit" value="Delete"  class="delete" />
     </div>
 </form>
 
